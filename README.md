@@ -19,6 +19,6 @@ In this exercise, I have learned to navigate through CLI in a Cisco device. This
 
 Below is the diagram of the exercice :
 
-![Exercise 1 - diagram](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/ex1_basic_commands/exo_1.svg)
+![Exercise 1 - diagram](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/ex1_basic_commands/exo_1.jpg)
 
 Refer to "basic_config_commands.txt" to view the commands.
