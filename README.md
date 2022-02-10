@@ -16,6 +16,8 @@ In this exercise, I have learned to navigate through CLI in a Cisco device. This
 - enabling / disabling priviliged EXEC mode
 - entering global configuration mode
 - entering subconfigration mode such as line or interface configuration mode
+- exiting subconfiguration mode
+- returning directly to a privileged EXEC mode in mode
 
 Below is the diagram of the exercice :
 
