@@ -1,8 +1,8 @@
-# Chapitre 1 - Introduction to NetWorks
+# CCNAv7 Chapitre 1 - Introduction to NetWorks
 Learning Networking with CISCO. 
 
 # Introduction
-This repository contains exercises that I have practiced related to "Chapter 1 - Introduction To Networks" on netacad. 
+This repository contains exercises that I have practiced related to the course " CCNAv7 : Introduction To Networks" on netacad. 
 
 ## Tools
 Packet Tracer version 8.1.1
