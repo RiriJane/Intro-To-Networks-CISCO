@@ -8,10 +8,10 @@
 - Make set of rules for protocols
 
 Some standard organizations:
-![Logo of standard organizations](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/standard_organization.jpg)
+![Logo of standard organizations](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap3/standard_organization.jpg)
 
 ### 3.4.2 Internet Standards
-![internet_standards.jpg]
+![Internet Standards](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap3/intertnet_standards.jpg)
 
 - **Internet Society (ISOC)** : responsible for promoting the open development and evolution of internet use throughout the world.
 - **Internet Architecture Board (IAB)** : responisble for management and development of internet standards.
@@ -34,19 +34,19 @@ Some IEEE networking standards :
 - **International Telecommunications Union-Telecommunication Standardization Sector (ITU-T)** : largest standard organization that defines standars for video compression; Internet Protocol Television (IPTV), and broadband communications (DSL).
 
 ## 3.5 Reference Models
-![OSI TCP/IP Reference Models](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/OSI_TCP_IP_models.jpg)
+![OSI TCP/IP Reference Models](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap3/OSI_TCP_IP_models.jpg)
 
 There are 2 layered models : 
 1. **Open System Interconnection (OSI) Reference Model**
 2. **TCP/IP Reference Model**
 
 ### 3.5.2 OSI Reference Model
-![OSI Model](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/OSI_layer.jpg)
+![OSI Model](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap3/OSI_layer.jpg)
 
 The OSI reference model describes the interaction between layers. The OSI layers are reffered to by numbers (Layer 1 for physical layer, Laver 2 for Data Link Layer, etc.).
 
 ### 3.5.3 The TCP/IP Protocol Model
-![TCP/IP Reference Model](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/TCP_IP_model.jpg)
+![TCP/IP Reference Model](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap3/TCP_IP_model.jpg)
 
 The TCP/IP protocol Model is often referred to the internet model and it was created in the early 70s. It describes what occurs in each layer. 
 
@@ -56,10 +56,10 @@ The TCP/IP protocol Model is often referred to the internet model and it was cre
 - 2 benefits : increases speed and efficiency (if one packet fails to be transmitted than it's only that specific packet that needs to be retransmitted).
 - **Multiplexing** : different packets interleaving on the network. Meaning that messages from Host A and B can pass through the network, see image below :
 
-![Multiplexing](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/multiplexing.jpg)
+![Multiplexing](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap3/multiplexing.jpg)
 
 ### 3.6.2 Sequencing
-![Sequencing](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/sequencing.jpg)
+![Sequencing](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap3/sequencing.jpg)
 
 - Process of labeling packets to ensure that the receiver could ressembling the pages in the correct order.
 
@@ -68,7 +68,7 @@ The TCP/IP protocol Model is often referred to the internet model and it was cre
 - **Protocol data unit (PDU)** : the form that a piece of data takes at any layer
 - If the Transport header is TCP, it's a segment. Otherwise, if it's UDP then it's a datagram.
 
-![Encapsulation process](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/encapsulation_process.jpg)
+![Encapsulation process](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap3/sequencing.jpg)
 	- Data : Application Layer PDU
 	- Segment : Transport Layer PDU
 	- Packet : Network Layer PDU
@@ -91,13 +91,13 @@ Reversed process, bottom to up :
 
 ## 3.7 Data Access
 ### 3.7.1 Addresses 
-![Addresses](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/addresses.jpg)
+![Addresses](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap3/addresses.jpg)
 - Network and data link layers are responsible for sending data from source to destination device.
 - Network layer source and destination addresses : responsible for sending the IP packet from source to destination on the same or remote network
 - Data link Layer source and destination addresses : responsible for sending data link frame from on Network Interface Card (NIC) to another on the same network.
 
 ### 3.7.2 Layer 3 logical Address
-![Layer 3 Logical Address](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/logical_address.jpg)
+![Layer 3 Logical Address](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap3/logical_address.jpg)
 - logical address are used to deliver IP packet from source to destination
 - **Source IP address** : IP address of the orignal source of the packet
 - **Destination IP address** : IP address of the final destination of the packet
@@ -109,7 +109,7 @@ An IP address contains 2 parts:
 - **Subnet mask (IPv4) or prefix-lenght(IPv6)** : used to identify the network portion from the host portion.
 
 **Example of devices on the same network :**
-![Devices on the same network](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/devices_same_network.jpg)
+![Devices on the same network](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap3/devices_same_network.jpg)
 
 Source IPv4 address, client computer : 192.168.1.110
 Destination UPv4 address, FTP server : 192.168.1.9
@@ -117,7 +117,7 @@ Destination UPv4 address, FTP server : 192.168.1.9
 Source and destination are in the same network because the network portion are the same : 192.168.1
 
 ### 3.7.4 Role of the Data Link Layer Addresses: Same IP network
-![Data Link Layer Addresses](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/MAC_addresses.jpg)
+![Data Link Layer Addresses](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap3/MAC_addresses.jpg)
 - If the sender and receiver of the IP packet are on the same network, the data link frame is sent directly to the receiving device. 
 - **Ethernet Media Access Control (MAC) addresse : data link addresses
 	- Physically embedded on the Ethernet NIC
@@ -127,7 +127,7 @@ Source MAC address : MAC address of the device that sends the data link frame wi
 Destination MAC address : MAC address of the device that receives the data link address of the receiving device
 
 ### 3.7.6 Role of the Network Layer Address
-![Network Layer Address](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/network_layer_address.jpg)
+![Network Layer Address](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap3/network_layer_address.jpg)
 
 The network portion will indicate when two devices are not on the same network
 
@@ -135,7 +135,7 @@ Source IP address, client computer : 192.168.1.110
 Destination IP address, Web Server : 172.16.1.99
 
 ### 3.7.7 Role of the Data Link Layer Addresses: Different IP networks
-![Data Link Layer Addresses - Different Networks](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/DLL_different_networks.jpg)
+![Data Link Layer Addresses - Different Networks](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap3/DLL_different_networks.jpg)
 - Ethernet data link frame cannot be sent directly to the destination host because the host isn't directly reachable. 
 - Ethernet frame must be sent to another device known as the router or default gateway
 
@@ -148,13 +148,13 @@ The Ethernet Frame with encapsulated IP packet can be send to R1. R1 forwards th
 - Data Link Layer 2 physical address delivers the data link frame from one network interface to another on the same network.
 
 **Host to Router**
-![Data Link Addresses - Host to Router](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/data_link_address_host_router.jpg)
+![Data Link Addresses - Host to Router](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap3/data_link_address_host_router.jpg)
 
 **Router to Router**
-![Data Link Addresses - Router to Router](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/data_link_address_router_router.jpg)
+![Data Link Addresses - Router to Router](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap3/data_link_address_router_router.jpg)
 
 **Router to Server**
-![Data Link Addresses - Router to Server](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/data_link_address_router_server.jpg)
+![Data Link Addresses - Router to Server](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap3/data_link_address_router_server.jpg)
 
 - IP packet travels from Host to Router, Router to Router, Router to Host
 	- On each point, the IP packet is encapsulated in a new data link frame
