@@ -8,6 +8,7 @@
 - Make set of rules for protocols
 
 Some standard organizations:
+
 ![Logo of standard organizations](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap3/standard_organization.jpg)
 
 ### 3.4.2 Internet Standards
@@ -18,7 +19,6 @@ Some standard organizations:
 - **Internet Engineering Task Force (IETF)** : develops, updates, maintains internent TCP/IP technologies (process and documents for developping new protocols and updating existing protocols).
 - **Internet Reearch Task Force (IRTF)** : research about the internet and TCP/IP protocols
 
-![IANA_ICANN.jpg](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/intertnet_standards.jpg)
 
 - **Internet Corporation for Assigned Names and Numbers (ICNN)** : coordinates IP address allocation, manages domain names, assigns other information used in TCP/IP protocols.
 - **Internet Assigned Numbers Authority (IANA)** : oversees and manage IP address allocation, domain name management and protocol identifiers for ICANN.
@@ -69,11 +69,11 @@ The TCP/IP protocol Model is often referred to the internet model and it was cre
 - If the Transport header is TCP, it's a segment. Otherwise, if it's UDP then it's a datagram.
 
 ![Encapsulation process](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap3/sequencing.jpg)
-	- Data : Application Layer PDU
-	- Segment : Transport Layer PDU
-	- Packet : Network Layer PDU
-	- Frame : Data Link Layer PDU
-	- Bits : Physical Layer PDU
+- Data : Application Layer PDU
+- Segment : Transport Layer PDU
+- Packet : Network Layer PDU
+- Frame : Data Link Layer PDU
+- Bits : Physical Layer PDU
 
 ### 3.6.4 Encapsulation process
 Encapsulation process works from top to bottom :
@@ -119,7 +119,7 @@ Source and destination are in the same network because the network portion are t
 ### 3.7.4 Role of the Data Link Layer Addresses: Same IP network
 ![Data Link Layer Addresses](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap3/MAC_addresses.jpg)
 - If the sender and receiver of the IP packet are on the same network, the data link frame is sent directly to the receiving device. 
-- **Ethernet Media Access Control (MAC) addresse : data link addresses
+- **Ethernet Media Access Control (MAC) addresse** : data link addresses
 	- Physically embedded on the Ethernet NIC
 
 
