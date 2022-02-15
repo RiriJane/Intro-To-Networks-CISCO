@@ -13,37 +13,41 @@ Some standard organizations:
 ### 3.4.2 Internet Standards
 ![internet_standards.jpg]
 
-**Internet Society (ISOC)** : responsible for promoting the open development and evolution of internet use throughout the world.
-**Internet Architecture Board (IAB)** : responisble for management and development of internet standards.
-**Internet Engineering Task Force (IETF)** : develops, updates, maintains internent TCP/IP technologies (process and documents for developping new protocols and updating existing protocols).
-**Internet Reearch Task Force (IRTF)** : research about the internet and TCP/IP protocols
+- **Internet Society (ISOC)** : responsible for promoting the open development and evolution of internet use throughout the world.
+- **Internet Architecture Board (IAB)** : responisble for management and development of internet standards.
+- **Internet Engineering Task Force (IETF)** : develops, updates, maintains internent TCP/IP technologies (process and documents for developping new protocols and updating existing protocols).
+- **Internet Reearch Task Force (IRTF)** : research about the internet and TCP/IP protocols
 
 ![IANA_ICANN.jpg](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/intertnet_standards.jpg)
 
-**Internet Corporation for Assigned Names and Numbers (ICNN)** : coordinates IP address allocation, manages domain names, assigns other information used in TCP/IP protocols.
-**Internet Assigned Numbers Authority (IANA)** : oversees and manage IP address allocation, domain name management and protocol identifiers for ICANN.
+- **Internet Corporation for Assigned Names and Numbers (ICNN)** : coordinates IP address allocation, manages domain names, assigns other information used in TCP/IP protocols.
+- **Internet Assigned Numbers Authority (IANA)** : oversees and manage IP address allocation, domain name management and protocol identifiers for ICANN.
 
 ### 3.4.3 Electronics and Communications Standards
 **Institute of Electrical and Electronics Engineers (IEEE)** : advances technology innovation, creating standards in a wide area of industries (power, energy, healthcare, telecommunications and networking).
 Some IEEE networking standards :
 - 802.3 Ethernet standards
 - 802.11 WLAN standards
-**Electronic Industries Alliance (EIA)** : known for its standards of electrical wiring, connectors, and 19-inch racks of network equipments.
-**Telecommunications Industry Association (TIA)** : develops communication standards in areas such as radio equipment, cellular towers, Voice over IP (VoIP) devices, satellite, etC.
-**International Telecommunications Union-Telecommunication Standardization Sector (ITU-T)** : largest standard organization that defines standars for video compression; Internet Protocol Television (IPTV), and broadband communications (DSL).
+
+- **Electronic Industries Alliance (EIA)** : known for its standards of electrical wiring, connectors, and 19-inch racks of network equipments.
+- **Telecommunications Industry Association (TIA)** : develops communication standards in areas such as radio equipment, cellular towers, Voice over IP (VoIP) devices, satellite, etC.
+- **International Telecommunications Union-Telecommunication Standardization Sector (ITU-T)** : largest standard organization that defines standars for video compression; Internet Protocol Television (IPTV), and broadband communications (DSL).
 
 ## 3.5 Reference Models
 ![OSI TCP/IP Reference Models](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/OSI_TCP_IP_models.jpg)
+
 There are 2 layered models : 
 1. **Open System Interconnection (OSI) Reference Model**
 2. **TCP/IP Reference Model**
 
 ### 3.5.2 OSI Reference Model
 ![OSI Model](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/OSI_layer.jpg)
+
 The OSI reference model describes the interaction between layers. The OSI layers are reffered to by numbers (Layer 1 for physical layer, Laver 2 for Data Link Layer, etc.).
 
 ### 3.5.3 The TCP/IP Protocol Model
 ![TCP/IP Reference Model](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/TCP_IP_model.jpg)
+
 The TCP/IP protocol Model is often referred to the internet model and it was created in the early 70s. It describes what occurs in each layer. 
 
 ## 3.6 Data Encapsulation
@@ -51,16 +55,19 @@ The TCP/IP protocol Model is often referred to the internet model and it was cre
 - Process of dividing data into smaller units to send over the network
 - 2 benefits : increases speed and efficiency (if one packet fails to be transmitted than it's only that specific packet that needs to be retransmitted).
 - **Multiplexing** : different packets interleaving on the network. Meaning that messages from Host A and B can pass through the network, see image below :
+
 ![Multiplexing](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/multiplexing.jpg)
 
 ### 3.6.2 Sequencing
 ![Sequencing](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/sequencing.jpg)
+
 - Process of labeling packets to ensure that the receiver could ressembling the pages in the correct order.
 
 ### 3.6.3 Procotol Data Units
 - **Encapsulation process** : application data is passed down the protocol stack when transmitted over the network and protocol information is added at each level
 - **Protocol data unit (PDU)** : the form that a piece of data takes at any layer
 - If the Transport header is TCP, it's a segment. Otherwise, if it's UDP then it's a datagram.
+
 ![Encapsulation process](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/encapsulation_process.jpg)
 	- Data : Application Layer PDU
 	- Segment : Transport Layer PDU
@@ -121,6 +128,7 @@ Destination MAC address : MAC address of the device that receives the data link 
 
 ### 3.7.6 Role of the Network Layer Address
 ![Network Layer Address](https://github.com/RiriJane/Intro_To_Networks_CISCO/tree/main/images/network_layer_address.jpg)
+
 The network portion will indicate when two devices are not on the same network
 
 Source IP address, client computer : 192.168.1.110
