@@ -9,7 +9,7 @@
 
 **Wireless Router**
 
-![Wireless Router]
+![Wireless Router](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/wireless_router.jpg)
 
 Components of an access point :
 1. Wireless antennas that are embedded inside the router
@@ -18,7 +18,7 @@ Components of an access point :
 
 **Wired Connection to Wireless Router**
 
-![Wired connection to a wireless router]
+![Wired connection to a wireless router](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/wired_connection_router.jpg)
 
 - ** Network Interface Cards (NICs) : connects a device to a network, used for a wired connection. 
 - ** WLAN NICs** : used for wireless connection.
@@ -48,7 +48,8 @@ The physical layer standards address 3 functional areas:
     - This type of encoding is used in 10 Mbps Ethernet. 
     - Faster data requires more complex encoding.
     - Used in older Ethernet standars such as 10BASE-T.
-    ![Manchester encoding]
+    
+    ![Manchester encoding](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/manchester_encoding.jpg)
 
 **Signaling** : the way the bits are represented 
 - The physical layer standards must define what type of signal represents a 1 and 0
@@ -74,7 +75,7 @@ Factors that determines the bandwidth of a network :
 
 **Units of measure for bandwidth**
 
-![Units of measure for bandwidth]
+![Units of measure for bandwidth](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/units_measure_bandwidth.jpg)
 
 ### 4.2.6 Terms used to measure the quality of bandwidth 
 
@@ -106,10 +107,10 @@ Two sources of interference :
 - For example, in telephone circuits, it results in hearing part of another voice conversation from an adjacent circuit.
 - To counter this type of interference, copper cables have opposing circuit wire pairs twisted together which cancels the crosstalk.
 
-![Interference of data transmission]
+![Interference of data transmission](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/interference_data_transmission.png)
 
 ### 4.3.2 Types of Copper Cabling
-![Types of copper cabling]
+![Types of copper cabling](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/types_copper_cabling.png)
 
 **Unshielded Twisted-Pair (UTP)**
 - Most command networking media
@@ -117,7 +118,7 @@ Two sources of interference :
 - In LANs, there are 4 pairs of color-coded wire that are twisted together and encased in a flexible plastic sheath. The twisting help from signal interference from other wires.
 - cancellation 
 
-![Color code wires of UTP]
+![Color code wires of UTP](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/color_code_wires_UTP.jpg)
 
 1. Outer jacket protects the copper wires from physical damage.
 2. Twisted-pairs protect signal from interference.
@@ -132,7 +133,7 @@ Two sources of interference :
 - Uses special shield STP data connectors.
 - If the cable is improperly grounded, the shield may act as an antenna and pick up unwanted signals.
 
-![STP cable]
+![STP cable](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/straight_tip_connector.jpg)
 
 1. Outer jacket
 2. Braided or foil shield
@@ -148,7 +149,7 @@ Two sources of interference :
 1. **Wireless installations** : coax cables attach antennas to wireless devices, it carries radio frequency (RF) engery between the antennas and the radio equipment.
 2. **Cable internet installations** : internet service providers replaces portion of the coax cable and support amplification elements with fiber-optic cable. The wiring inside is still coax cable.
 
-![Coax cable]
+![Coax cable](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/coax_cable.jpg)
 
 1. Outer jacket : entire cable is covered with a cable jacket 
 2. Braided copper shielding : surrounded in a woven copper braid or metallic foil. It acts as the second wire in the circuit and as a shield for the inner conductor. Also reduces the amount of outside electromagnetic interference. 
@@ -157,7 +158,8 @@ Two sources of interference :
 
 ## 4.4 UTP Cabling
 ### 4.4.1 Properties of UTP Cabling
-![UTP cabling]
+![UTP cabling](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/UTP_cabling.jpg)
+
 Ways to limit the effect of crosstalk :
 - **Cancellation** : When two wires in an electrical circuit are placed close together, their magnetic fields are the opposites and cancels each other and also the EMI and RFI.
 - **Varying the number of twists per wire pair** : UTP capable follows specifications concerning the number of twists or braids are permitted per meter of cable.
@@ -171,7 +173,7 @@ UTP cable relies mostly on the cancellation effect produced by the twisted wire 
   - For example / Category 5 cable is used in 100BASE-TX Fast Ethernet Installations, Enhanced Category 5 cable, Category 6 and Category 6a.
 - Cables in high cateogry are made to support higher data rates.
 
-![3 Categories of UTP Cable]
+![3 Categories of UTP Cable](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/categories_UTP_cable.jpg)
 
 - Category 3 : was used for voice communication over voice lines but now used for data transmission
 - Category 5 and 5e : used for data transmission
@@ -183,17 +185,17 @@ UTP cable relies mostly on the cancellation effect produced by the twisted wire 
 - Category 8 : supports 40 Gbps
 
 **RJ-45 UTP plugs** : male component, crimped at the end of the cable. 
-![RJ-45 UTP plugs]
+![RJ-45 UTP plugs](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/RJ-46_UTP_plugs.jpg)
 
 **RJ-45 UTP Sockets** : female component, wall, cubicle, partition outlet or patch panel.
-![RJ-45 UTP sockets]
+![RJ-45 UTP sockets](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/RJ-45_UTP_sockets.jpg)
 
 **Poorly terminated UTP Cable** : wires are exposed, untwisted and not entirely covered by the sheath.
 - Improper cable termination can impact transmission performance.
-![Poorly terminated UTP Cable]
+![Poorly terminated UTP Cable](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/poorly_terminated_UTP_cable.jpg)
 
 **Properly terminated UTP Cable** : wires that are untwisted only to the extent necessary to attach the connector.
-![Properly terminated UTP Cable]
+![Properly terminated UTP Cable](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/properly_terminated_UTP_cable.jpg)
 
 ### 4.4.3 Straight-through and Crossover UTP Cables
 **Ethernet Straight-through** : most common. Used to interconnect a host to a switch and a switch to a router.
@@ -206,11 +208,11 @@ UTP cable relies mostly on the cancellation effect produced by the twisted wire 
 
 **T568A and T568B Standards**
 
-![T568A and T568B Standards]
+![T568A and T568B Standards](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/T568A_T568B_standards.jpg)
 
 **Cable Types and Standards**
 
-![Cable Types and Standards]
+![Cable Types and Standards](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/cable_types_standards_table.jpg)
 
 ## 4.5 Fiber-Optic Cabling
 ### 4.5.1 Properties of Fiber-Optic Cabling
@@ -221,14 +223,14 @@ UTP cable relies mostly on the cancellation effect produced by the twisted wire 
 ### 4.5.2 Types of Fiber Media
 **Single-mode Fiber (SMF)**
 
-![Single-Mode Fiber]
+![Single-Mode Fiber](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/single_mode_fiber.jpg)
 
 - Consist of a very small core and uses expensive laser technology to send a single ray of light
 - for long distance situations, hundreds of kilometers
 
 **Multimode Fiber (MMF)**
 
-![Multimode Fiber]
+![Multimode Fiber](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/multimode_fiber.png)
 
 - Consist of a larger core and uses LED emitters to send light pulses
 - LED enters at different angles (image)
@@ -253,19 +255,19 @@ UTP cable relies mostly on the cancellation effect produced by the twisted wire 
 
 **Straight-Tip (ST) Connectors** : first connector type used. Secured with a "Twist-on/Twist-off" bayonet-style mechanism.
 
-![Straight-Tip Connector]
+![Straight-Tip Connector](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/straight_tip_connector.jpg)
 
 **Subscriber Connector (SC) Connectors** or square connector or standard connector : widely adopted LAN and WAN connector that uses a push-pull mechanism to secure insertion. It's used with multimode and single-mode fiber.
 
-![Subscriber Connector]
+![Subscriber Connector](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/subscriber_connector.jpg)
 
 **Lucent Connector (LC) Simplex Connectors** : smaller version fo SC connector. Also called little or local connectors.
 
-![Lucent Connector]
+![Lucent Connector](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/lucent_connector.jpg)
 
 **Duple Multimode LC Connectors** : similar to a LC simplex connecter but uses duplex connector.
 
-![Duplex Multimode LC Connector]
+![Duplex Multimode LC Connector](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/duplex_multimode_LC_connector.jpg)
 
 ### 4.5.5 Fiber Patch Cords
 - Required for interconnecting infrastructure devices/
@@ -274,23 +276,23 @@ UTP cable relies mostly on the cancellation effect produced by the twisted wire 
 
 **SC-SC Multimode patch cord**
 
-![SC-SC Multimode patch cord]
+![SC-SC Multimode patch cord](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/SC-SC_multimode_patch_cord.jpg)
 
 **LC-LC Single-mode patch cord**
 
-![LC-LC Single-mode patch cord]
+![LC-LC Single-mode patch cord](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/LC-LC_single_mode_patch_cord.jpg)
 
 **ST-LC Multimode Patch Cord**
 
-![ST-LC Multimode Patch Cord]
+![ST-LC Multimode Patch Cord](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/ST-LC_multimode_patch_cord.jpg)
 
 **SC-ST Single-Mode Patch Cord**
 
-![SC-ST Single-Mode Patch Cord]
+![SC-ST Single-Mode Patch Cord](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/SC-ST_single_mode_patch_cord.jpg)
 
 
 ### 4.5.6 Fiber vs Copper
-![Fiber vs Copper]
+![Fiber vs Copper](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/fiber_vs_copper.jpg)
 
 
 ## Wireless Media
