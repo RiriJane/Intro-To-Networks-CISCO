@@ -133,7 +133,7 @@ Two sources of interference :
 - Uses special shield STP data connectors.
 - If the cable is improperly grounded, the shield may act as an antenna and pick up unwanted signals.
 
-![STP cable](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/straight_tip_connector.jpg)
+![STP cable](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap4/shielded_twisted_pair.jpg)
 
 1. Outer jacket
 2. Braided or foil shield
