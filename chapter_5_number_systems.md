@@ -1,9 +1,9 @@
 **These notes are taken from courses in Cisco Networking Academy. No copyright intended**
 
-#Chapter 5 - Number Systems
+# Chapter 5 - Number Systems
 
-##5.1 Binary Number System 
-###5.1.1 Binary and IPv4 Addresses
+## 5.1 Binary Number System 
+### 5.1.1 Binary and IPv4 Addresses
 - IPv4 addresses begin as binary and are converted to decimal for easier management.
   - **Binary numbering system** : consists of 0s and 1s called **bits**, base 2.
   - **Decimal numbering systems** : consists of numbers from 0 to 9, base 10.
@@ -23,8 +23,8 @@
 
 ![Dotted decimal notation](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap5/dotted_decimal_notation.jpg)
 
-###5.1.2 Converting Between Binary and Decimal Numbering Systems
-####Positional Notation or place values
+### 5.1.2 Converting Between Binary and Decimal Numbering Systems
+#### Positional Notation or place values
 **Place values of decimal numbering systems**
 
 ![Place values of decimal numbering systems](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap5/place_values_decimal.jpg)
@@ -71,7 +71,7 @@
 - Add all up the numbers that have 1 underneath
 - 64 + 32 + 8 + 4 + 1 = 109
 
-####Converting binary address to dotted decimal notation 
+#### Converting binary address to dotted decimal notation 
 
 ![Binary address to dotted decimal notation conversion](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap5/binary_address_to_dotted_decimal_notation.jpg)
 
@@ -80,7 +80,7 @@
 - 3rd octet : 1
 - 4th octet : 64 + 32 + 4 + 1 = 101
 
-###5.1.7 Positional Notation Process
+### 5.1.7 Positional Notation Process
 
 ![Positional Notation Process](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap5/positional_notation_process.jpg)
 
@@ -107,8 +107,8 @@ Convert 192.168.11.10. The steps :
 
 ![32-bit address](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap5/32-bit_address.jpg)
 
-##5.2 Hexadecimal Number
-###5.2.1 Hexadecimal and IPv6 Addresses
+## 5.2 Hexadecimal Number
+### 5.2.1 Hexadecimal and IPv6 Addresses
 
 ![decimail, binary, hexadecimal equivalence table](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap5/equivalence_table.jpg)
 
@@ -120,7 +120,7 @@ Convert 192.168.11.10. The steps :
 - Hextet is an unofficial term that refers to a segment of 16 bits (4 hexadecimal values).
 
 
-###5.2.2 Converting between Hexadecimal and Decimal Numbering Systems
+### 5.2.2 Converting between Hexadecimal and Decimal Numbering Systems
 
 ![Hexadecimal place value table](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap5/hexadecimal_place_values.jpg)
 
