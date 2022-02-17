@@ -1,11 +1,11 @@
-**These notes are taken from courses in Cisco Networking Academy. No copyright intended**
+**These notes are taken from courses in Cisco Networking Academy. No copyright intended.**
 
 # Chapter 4 -  Physical Layer
 
 ## 4.1 Purpose of the Physical Layer
 ### 4.1.1 The Physical Connection
 - **Wired network** : a device physically connected where data is transmitted through a physical cable.
-- **Wireless connectio** : data is transmitted using radio waves.
+- **Wireless connection** : data is transmitted using radio waves.
 
 **Wireless Router**
 
