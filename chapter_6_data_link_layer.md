@@ -155,6 +155,83 @@ A hybrid can exist.
 - Each node has its own time to use the medium.
 - Inefficient because must wait for its turn
 
+## 6.3 Data Link Frames
+### 6.3.1 The Frame
+- The information added to a frame depends on the protocol in use.
+- The data link layer prepares the encapsulated data (IPv4 or IPv6) for transport across the media by encapsulating it with a header and trailer to create a frame.
+- The data link protocol is responsible for the NIC to NIC communication.
+- Each frame has 3 parts : header, data, trailer.
+- Data Link Layer adds information at the end of the frame (trailer).
+
+### 6.3.2 Frame Fields
+**A generic frame field** 
+
+![Generic Frame Fields](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap6/generic_frame_field.jpg)
+
+- **Frame start and stop indicator flags** : identify beginning and end of frame.
+- **Addressing** : indicates source and destination nodes on the media.
+- **Type** : identifies layer 3 protocol in the data field.
+- **Control** : identifies special flow control services (QoS for example).
+- **Data**: contains the frame payload (packet, header, segment header, data).
+- **Error detection** : included after the data to form the trailer. Determines if the frame arrived without error that can be due to interference, distortion or loss.
+
+**Cyclic redundancy check (CRC)** : logical summary of the contents of the frame created by a node that is transmitting the frame. 
+- Placed in the frame check sequence (FCS) field to represent the contents of the frame.
+
+### 6.3.3 Layer 2 Addresses
+- Layer 2 addresses are the physical addresses.
+- Layer 2 address is contained within the frame header and specifies the frame destination node. The NIC can easily determine if it matches its own Layer 2 address before accepting the rest of the frame. 
+- The frame header may contain the source address of the frame.
+- Layer 3 logical addresses indicates on what network the device is located.
+- Physical address is unique to the specific device. The device will still work if it's moved to a different network.
+- Layer 2 address are used to connect devices within the same shared media on the same IP address.
+- NIC send signals at the physical layer, translit data packets at the network layer and operate as an interface at the TCP/IP layer.
+
+![Host to router addressing](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap6/host_router_addressing.jpg)
+
+![Router to router addressing](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap6/router_router_addressing.jpg)
+
+![Router to host addressing](https://github.com/RiriJane/Intro_To_Networks_CISCO/blob/main/images/chap6/router_host_addressing.jpg)
+
+#### Some data link protocols :
+- Ethernet
+- 802.11 Wireless
+- Point-to-point Protocol (PPP)
+- High-Level Data Link Control (HDLC)
+- Frame Relay
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
