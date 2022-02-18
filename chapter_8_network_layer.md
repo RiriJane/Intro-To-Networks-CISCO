@@ -45,14 +45,14 @@
 
 ### 8.1.3 Characteristics of IP
 1. **Connectionless** : no connection with the destination established before sending data packets.
-- destination host is unaware of receiving packets.
+   - destination host is unaware of receiving packets.
 2. **Best effort** : unreliable because packet delivery is not guaranteed.
-- Packets can arrive corrupted, out of sequence or not at all.
-- Other protocols manage the process of tracking packets and ensuring their delivery.
+   - Packets can arrive corrupted, out of sequence or not at all.
+   - Other protocols manage the process of tracking packets and ensuring their delivery.
 3. **Media Independent** : independent of the medium
-- IP packts can be transmitted as electronic signals over copper cable, fiber-optic, or wirelessy.
-- The data link layer (layer 2) is responsible for taking an IP packet and preparing it for transmission over the communications medium. 
-- Fragmentation : process of splitting up IP packets to travel over a medium with a smaller maximum transmission unit (MTU).
+   - IP packts can be transmitted as electronic signals over copper cable, fiber-optic, or wirelessy.
+   - The data link layer (layer 2) is responsible for taking an IP packet and preparing it for transmission over the communications medium. 
+   - Fragmentation : process of splitting up IP packets to travel over a medium with a smaller maximum transmission unit (MTU).
 
 
 
